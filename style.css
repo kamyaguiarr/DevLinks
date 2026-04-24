@@ -30,7 +30,7 @@ body {
   */
   /* background:color image repeat position */
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
+  min-height: 100dvh;
 }
 
 body * {
