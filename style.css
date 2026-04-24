@@ -22,15 +22,8 @@
   --switch-bg-url: url(./assets/sun.svg);
 }
 body {
-  /*
-  background-image: url(.//assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  */
-  /* background:color image repeat position */
-  background: var(--bg-url) no-repeat top center/cover;
   min-height: 100dvh;
+  background: var(--bg-url) no-repeat center/cover;
 }
 
 body * {
